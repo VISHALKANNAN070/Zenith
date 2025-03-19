@@ -1,0 +1,90 @@
+.about {
+  background-color: black;
+  color: white;
+  font-family: "Sora", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.about-container {
+  max-width: 900px;
+  width: 100%;
+}
+
+.about-content {
+  margin-bottom: 60px;
+}
+
+.about-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 2px solid white;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  color: #c9c8c8;
+  line-height: 1.6;
+}
+
+/* 🔹 FIX FOR PROPER TEAM MEMBER ALIGNMENT */
+.team {
+  margin-top: 40px;
+}
+
+.team h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* FIXED: Ensures 5 boxes are aligned properly */
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;  /* Ensures proper wrapping */
+  justify-content: center;  /* Centers the boxes */
+  gap: 40px;  /* Increased gap for better spacing */
+  margin-bottom: 50px; /* Added bottom margin to prevent cut-off */
+}
+
+.team-member {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+  width: 180px;  /* Increased width for better alignment */
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.team-member img {
+  width: 100%;
+  max-width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.team-member h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #c9c8c8;
+}
