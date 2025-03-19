@@ -1,10 +1,10 @@
-import './App.css'
+import './styles/App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './assets/header'
-import Home from './assets/Home'
-import About from './assets/About'
-import Project from './assets/Project'
-import Contact from './assets/Contact'
+import Header from './pages/Header'
+import Home from './pages/Home'
+import About from './pages/About'
+import Project from './pages/Project'
+import Contact from './pages/Contact'
 function App() {
   return (
     <>
