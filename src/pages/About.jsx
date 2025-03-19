@@ -1,5 +1,10 @@
 import React from 'react';
 import '../styles/about.css';
+import vishal from '../assets/vishal.png'
+import vignesh from '../assets/vignesh.png'
+import pradeep from '../assets/pradeep.png'
+import giri from '../assets/giri.png'
+import sadhur  from '../assets/sadhur.png'
 
 function About() {
   return (
@@ -18,29 +23,29 @@ function About() {
           <h2>Meet Our Team</h2>
           <div className="team-grid">
             <div className="team-member">
-              <img src="/images/member1.jpg" alt="Member 1" />
-              <h3>John Doe</h3>
-              <p>Frontend Developer</p>
+              <img src={vishal} alt="Vishal" />
+              <h3>Vishal Kannan</h3>
+              <p>Developer</p>
             </div>
             <div className="team-member">
-              <img src="/images/member2.jpg" alt="Member 2" />
-              <h3>Jane Smith</h3>
-              <p>Backend Developer</p>
+              <img src={vignesh} alt="Vignesh" />
+              <h3>Vignesh</h3>
+              <p>Developer</p>
             </div>
             <div className="team-member">
-              <img src="/images/member3.jpg" alt="Member 3" />
-              <h3>Michael Lee</h3>
-              <p>UI/UX Designer</p>
+              <img src={pradeep} alt="Pradeep" />
+              <h3>Pradeep</h3>
+              <p>Developer</p>
             </div>
             <div className="team-member">
-              <img src="/images/member4.jpg" alt="Member 4" />
-              <h3>Sarah Brown</h3>
-              <p>Project Manager</p>
+              <img src={giri} alt="Giri" />
+              <h3>Giri Prasath</h3>
+              <p>Designer</p>
             </div>
             <div className="team-member">
-              <img src="/images/member5.jpg" alt="Member 5" />
-              <h3>Chris Evans</h3>
-              <p>DevOps Engineer</p>
+              <img src={sadhur} alt="Sadhur" />
+              <h3>Sathurnithy</h3>
+              <p>Developer</p>
             </div>
           </div>
         </div>

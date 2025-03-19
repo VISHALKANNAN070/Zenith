@@ -1,12 +1,17 @@
 .home {
-    height:100vh;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    background: linear-gradient(160deg,#0A0929,#100e3f,#19165E,#292675,#4F4D90,#8a83a3,#9F9F9F);
+    clip-path: path("M 30,70 L 160,70 A 10,10 0,0,0  170,60 L 170,30 A 10,10 0,0,1 180,20 L 1506,20 A 10,10 0,0,1 1516,30 L 1516,476 A 10,10 0,0,1 1506,486 L 1436,486 A 10,10 0,0,0 1426,496 L 1426,664 A 10,10 0,0,1 1416,674 L 20,674 L 20,80 A 10,10 0,0,1 30,70 Z");
+    
 }
 .home h1 {
     font-size: clamp(3rem, 6vw, 5rem);
     color: white;
     font-weight: bold;
 }
+

@@ -29,7 +29,7 @@ function Contact() {
           <form className="contact-form" onSubmit={handleSubmit}>
             <input id='fname' name='fname' type="text" placeholder="Your Name" required onChange={handleChange} />
             <input id='email' name='email' type="email" placeholder="Your Email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"  onChange={handleChange} />
-            <input id='message'  name='message' placeholder="Your Message" rows="5" required onChange={handleChange} />
+            <textarea type="text" id='message'  name='message' placeholder="Your Message" rows="5" required onChange={handleChange} />
             <button type="submit" value="Submit Now" >Send Message</button>
           </form>
           <div className="contact-info">

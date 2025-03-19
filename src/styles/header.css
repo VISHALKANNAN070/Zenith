@@ -1,6 +1,5 @@
 .header{
     position: fixed;
-    width: 100%;
     z-index: 1000;
     height: 80px;
     top: 0;
@@ -12,8 +11,16 @@
     color: white;
     padding: 0px 40px;
 }
+.navbar{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    
+}
 .navbar ul{
     display: flex;
+    flex-direction: column;
+    text-align: center;
     gap: 10px;
 }
 .header h1{
