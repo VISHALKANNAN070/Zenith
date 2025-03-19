@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/header.css'
+import logo from '../assets/Z-bold-no-bg.png'
 function Header() {
   return (
     <header className='header'>
-       <h1><a href="#">TEAM ZENITH</a></h1>
+      <img src={logo} alt="Zenith Logo" />
        <nav className='navbar'>
         <ul>
             <li><Link to="/">Home</Link></li>

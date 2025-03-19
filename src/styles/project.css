@@ -1,5 +1,4 @@
 .projects {
-  background-color: black;
   color: white;
   font-family: "Sora", sans-serif;
   min-height: 100vh;
@@ -11,7 +10,7 @@
 }
 
 .projects-container {
-  max-width: 900px;
+  max-width: 1200px;
   width: 100%;
 }
 
@@ -39,6 +38,7 @@
   border-radius: 12px;
   text-align: center;
   transition: 0.3s ease-in-out;
+  height: 400px;
 }
 
 .project-card:hover {
@@ -52,6 +52,9 @@
 }
 
 .project-card p {
+  padding: 10px;
   font-size: 1rem;
   color: #c9c8c8;
+  text-align: justify;
+  line-height: 1.6;
 }

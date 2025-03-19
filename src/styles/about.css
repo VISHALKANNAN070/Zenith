@@ -1,16 +1,16 @@
 .about {
-  background-color: black;
+  /* background-color: black; */
   color: white;
   font-family: "Sora", sans-serif;
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  padding: 80px 20px;
+  align-items: center;
   text-align: center;
 }
 
 .about-container {
-  max-width: 900px;
+  max-width: 1200px;
   width: 100%;
 }
 
@@ -35,7 +35,6 @@
   line-height: 1.6;
 }
 
-/* 🔹 FIX FOR PROPER TEAM MEMBER ALIGNMENT */
 .team {
   margin-top: 40px;
 }
@@ -47,13 +46,12 @@
   letter-spacing: 1px;
 }
 
-/* FIXED: Ensures 5 boxes are aligned properly */
 .team-grid {
   display: flex;
-  flex-wrap: wrap;  /* Ensures proper wrapping */
-  justify-content: center;  /* Centers the boxes */
-  gap: 40px;  /* Increased gap for better spacing */
-  margin-bottom: 50px; /* Added bottom margin to prevent cut-off */
+  flex-wrap: wrap;  
+  justify-content: center;  
+  gap: 40px;
+  margin-bottom: 50px; 
 }
 
 .team-member {
@@ -62,7 +60,7 @@
   border-radius: 12px;
   text-align: center;
   transition: 0.3s ease-in-out;
-  width: 180px;  /* Increased width for better alignment */
+  width: 200px; 
 }
 
 .team-member:hover {
