@@ -34,7 +34,7 @@ function Contact() {
           </form>
           <div className="contact-info">
             <h2>Get in Touch</h2>
-            <p>Email: teamzenith69@gmail.com</p>
+            <p>Email: teamzenith67@gmail.com</p>
           </div>
         </div>
       </div>
