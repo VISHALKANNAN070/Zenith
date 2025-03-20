@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/header.css'
-import logo from '../assets/Z-bold-no-bg.png'
+import logo from '/public/Tz_White-removebg.png'
 function Header() {
   return (
     <header className='header'>
