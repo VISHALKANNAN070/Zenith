@@ -10,15 +10,13 @@ import Contact from './pages/Contact'
 function App() {
   return (
     <>
-     <Header />
-    <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/about' element={<About />} />
-      <Route path='/projects' element={<Project />} />
-      <Route path='/contact' element={<Contact />} />
-      </Routes>
-      <Analytics/>
-      <SpeedInsights/>
+      <Header />
+      <div id="home"><Home /></div>
+      <div id="about"><About /></div>
+      <div id="project"><Project /></div>
+      <div id="contact"><Contact /></div>
+      <Analytics />
+      <SpeedInsights />
     </>
   )
 }
