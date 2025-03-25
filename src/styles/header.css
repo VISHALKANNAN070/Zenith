@@ -2,7 +2,7 @@
     position: fixed;
     width: 100%;
     z-index: 1000;
-    height: 80px;
+    height: 70px;
     top: 0;
     left: 0;
     display: flex;
@@ -11,6 +11,7 @@
     align-items: center;
     color: white;
     padding: 0px 40px;
+    background-color: black;
 }
 .header img{
     width: 50px;
