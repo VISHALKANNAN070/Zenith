@@ -7,6 +7,6 @@
 }
 .home h1 {
     font-size: clamp(3rem, 6vw, 5rem);
-    color: white;
+    color: var(--text-col);
     font-weight: bold;
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/header.css'
-import logo from '/public/Tz_White-removebg.png'
+import logo from '../assets/Z-bold-no-bg.png'
 function Header() {
   return (
     <header className='header'>

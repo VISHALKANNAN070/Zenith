@@ -1,16 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+:root{
+    --text-col:#fff;
+    --text-col-grey:#c9c8c8;
+    --gradient:linear-gradient(160deg, #000000,#000000,#0A0929,#100e3f,#19165E,#292675,#4F4D90,#8a83a3,#9F9F9F);
+    --opacity:rgba(255, 255, 255, 0.1);
+    --hover:#5e6cad;
+    --black:#000;
+    --font-heading: clamp(2rem, 5vw, 3rem);
+    --font-sub-heading: clamp(1.2rem, 3vw, 1.6rem);
+    --font-para: clamp(1rem, 2.5vw, 1.2rem);
+    
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Sora", sans-serif;
+    border: 1px solid white;
 }
 html{
     scroll-behavior: smooth;
 }
 body{
     min-height: 100vh;
-background: linear-gradient(160deg, #000000,#000000,#0A0929,#100e3f,#19165E,#292675,#4F4D90,#8a83a3,#9F9F9F);
+background: var(--gradient);
 
 }
 ::-webkit-scrollbar {

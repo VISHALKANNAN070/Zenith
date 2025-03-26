@@ -1,8 +1,6 @@
 .about {
-  /* background-color: black; */
-  color: white;
-  font-family: "Sora", sans-serif;
-  min-height: 100vh;
+  color: var(--text-col);
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,19 +17,19 @@
 }
 
 .about-content h1 {
-  font-size: 3rem;
+  font-size:var(--font-heading);
   font-weight: bold;
   margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid var(--text-col);
   display: inline-block;
   padding-bottom: 10px;
 }
 
 .about-content p {
-  font-size: 1.2rem;
-  color: #c9c8c8;
+  font-size: var(--font-para);
+  color: var(--text-col-grey);
   line-height: 1.6;
 }
 
@@ -40,7 +38,7 @@
 }
 
 .team h2 {
-  font-size: 2rem;
+  font-size:var(--font-sub-heading);
   margin-bottom: 30px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -55,7 +53,7 @@
 }
 
 .team-member {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color:var(--opacity);
   padding: 20px;
   border-radius: 12px;
   text-align: center;
@@ -65,7 +63,7 @@
 
 .team-member:hover {
   transform: translateY(-5px);
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: var(--opacity);
 }
 
 .team-member img {

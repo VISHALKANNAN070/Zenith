@@ -9,9 +9,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: var(--text-col);
     padding: 0px 40px;
-    background-color: black;
+    background-color: var(--black);
 }
 .header img{
     width: 50px;
@@ -36,11 +36,11 @@
     padding: 10px;
 }
 .navbar ul li a,.header a{
-    color: white;
+    color: var(--text-col);
     text-decoration: none;
 }
 .navbar ul li a:visited{
-    color: white;
+    color: var(--text-col);
 }
 .navbar ul li{
     padding: 10px;

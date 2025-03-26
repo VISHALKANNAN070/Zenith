@@ -1,5 +1,5 @@
 .contact {
-  color: white;
+  color: var(--text-col);
   font-family: "Sora", sans-serif;
   min-height: 100vh;
   display: flex;
@@ -15,12 +15,12 @@
 }
 
 .contact h1 {
-  font-size: 3rem;
+  font-size:var(--font-heading);
   font-weight: bold;
   margin-bottom: 30px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid var(--text-col);
   display: inline-block;
   padding-bottom: 10px;
 }
@@ -45,19 +45,19 @@
   margin-bottom: 15px;
   border-radius: 8px;
   border: none;
-  background: rgba(255, 255, 255, 0.1);
-  color: white;
+  background: var(--opacity);
+  color: var(--text-col);
 }
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-  color: #c9c8c8;
+  color: var(--text-col-grey);
 }
 
 .contact-form button {
   padding: 10px;
   background: #213aa8;
-  color: white;
+  color: var(--text-col);
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -65,7 +65,7 @@
 }
 
 .contact-form button:hover {
-  background: #5e6cad;
+  background:var(--hover);
 }
 
 .contact-info {
@@ -79,7 +79,7 @@
 }
 
 .contact-info p {
-  font-size: 1.1rem;
-  color: #c9c8c8;
+  font-size: var(--font-para);
+  color: var(--text-col-grey);
   margin-bottom: 10px;
 }
