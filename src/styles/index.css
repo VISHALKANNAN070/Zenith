@@ -16,7 +16,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Sora", sans-serif;
-    border: 1px solid white;
 }
 html{
     scroll-behavior: smooth;
